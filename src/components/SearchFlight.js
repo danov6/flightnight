@@ -7,17 +7,27 @@ export default class SearchFlight extends React.Component {
     endDate: '',
   };
   render(){
-    const API_KEY = '5f08b72835mshcd811738662246ep165193jsn0540c4a0f32d';
-
     return (
       <main role="main" className="inner cover">
-        <h1 className="cover-heading" style={{margin: 30}}>Plan a trip this weekend!</h1>
+        <h1 className="cover-heading"><img src="../images/quicktripz_logo.png" /></h1>
         <div className="input-group mb-3">
           <input type="text" className="form-control" placeholder="Search destination" aria-label="Recipient's username" aria-describedby="button-addon2" />
           <div className="input-group-append">
             <button className="btn btn-outline-secondary" type="button" id="button-addon2" style={{backgroundColor: '#007bff', color: '#fff'}}><span className="glyphicon glyphicon-map-marker"></span></button>
           </div>
         </div>
+        <p className="lead" style={{margin: 30}}>
+        Leave On: 
+          <select>
+            <option value="" disabled selected>Select One</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+          </select>
+           Return Sunday.
+        </p>
         <p className="lead" style={{margin: 30}}>
           <a href="#" className="btn btn-lg btn-primary">Search Airports</a>
         </p>

@@ -5,7 +5,7 @@ export default class Footer extends React.Component {
       return (
         <footer className="mastfoot mt-auto">
             <div className="inner">
-                <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                <p>Cover by <a href="https://giovaldez.com/" target="_blank">Gio Valdez</a></p>
             </div>
         </footer>
       );
